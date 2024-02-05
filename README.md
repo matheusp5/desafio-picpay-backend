@@ -35,7 +35,7 @@ Todas as requisições tem um tempo de resposta em média de 30ms a 80ms. Porém
 Para essa aplicação, um algoritmo de geração de ID foi criado, com o intuíto de deixar os IDs mais amigáveis.
 
 ## Rate Limiter
-Foi implementado um sistema de rate limiter, para requisição de login, registro e criação de transação. Esse serviço limita um número máximo de 5 requisições por IP a cada 15 segundos.
+Foi implementado um sistema de rate limiter para requisição de login, registro e criação de transação. Esse serviço limita um número máximo de 5 requisições por IP a cada 15 segundos.
 
 ## Autenticação
 A autenticação é realizada através de e-mail e senha, que retorna um token JWT que pode ser utilizado no cabeçalho de autenticação para acessar as demais funcionalidades da aplicação. O registro do usuário é feito enviando nome, identificação (CPF ou CNPJ), email, senha e tipo (tipo de usuário, pode ser lojista ou usuário comum).
