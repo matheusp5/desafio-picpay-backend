@@ -1,6 +1,6 @@
 import { mailerTransporter } from '../configs/nodemailer'
 
-const sendMail = async (
+const sendMail = async ( // sending Mail
   from: string,
   to: string,
   subject: string,
